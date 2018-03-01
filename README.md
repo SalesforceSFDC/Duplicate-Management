@@ -8,7 +8,12 @@
 #
 * Matching rule determines whether the record a user is creating or updating is similar enough to other records to be considered a duplicate.
 * Duplicate rule tells Salesforce what action to take when duplicates are identified. 
+### Sharing Rules
+Specify how your organization's sharing rules determine which records the matching rule compares.
 
+Enforce sharing rules: The matching rule compares only records that the user has access to, and the resulting list of possible duplicates includes only records the user has access to.
+
+Bypass sharing rules: The matching rule compares all records, regardless of user access, but the resulting list of possible duplicates includes only records the user has access to.
 ### Manage Duplicate Records
 Starting in Spring ‘15, all new Salesforce orgs come with Duplicate Management features already
 set up and turned on for accounts, contacts, and leads. 

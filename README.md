@@ -12,10 +12,10 @@ set up and turned on for accounts, contacts, and leads.
 * (1) When a user attempts to save a new record, the record is first compared with existing Salesforce
 records to identify possible duplicates.
 * (2) The criteria used to compare records and identify the possible duplicates are defined by
-a matching rule. Next, a list of possible duplicates is returned 
-* (3) What happens when the record being saved is identified as a possible
-duplicate depends on what’s defined in the duplicate rule 
- *  For example, the duplicate rule could block users from saving the
+a matching rule. 
+* (3) A list of possible duplicates is returned 
+* (4) The record being saved is identified as a possible duplicate depends on what’s defined in the duplicate rule 
+  *  For example, the duplicate rule could block users from saving the
 possible duplicate record or allow them to save it anyway. Both the Block and Allow options include an alert, which tells users why they can’t save the record and what they need to do. The Allow option includes the ability to report on the duplicate records.
 
 

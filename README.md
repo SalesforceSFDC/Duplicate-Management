@@ -8,6 +8,12 @@
 #
 * Matching rule determines whether the record a user is creating or updating is similar enough to other records to be considered a duplicate.
 * Duplicate rule tells Salesforce what action to take when duplicates are identified. 
+### Matching Rule Limits
+* Up to five matching rules can be activated or deactivated at a time.
+* Up to five active matching rules are allowed per object.
+* Up to 25 total active matching rules are allowed.
+* Up to 100 total matching rules are allowed (both active and inactive).
+* Only one lookup relationship field is allowed per matching rule.
 ### Sharing Rules
 Specify how your organization's sharing rules determine which records the matching rule compares.
 * Enforce sharing rules: The matching rule compares only records that the user has access to, and the resulting list of possible duplicates includes only records the user has access to.

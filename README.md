@@ -8,7 +8,7 @@
 
 Contact and Lead Field|Matching Algorithms|Special Handling|Example
 --- | --- | --- | ---
-
+Exact, Initials, Jaro-Winkler Distance, Metaphone 3, Name Variant|
 ## Resources 
 * [Manage Duplicate Records](https://help.salesforce.com/articleView?id=managing_duplicates_overview.htm)
 * [Standard Matching Rules](https://help.salesforce.com/articleView?id=matching_rules_standard_rules.htm)

@@ -6,6 +6,20 @@
     * and another for person accounts. 
 * Duplicate rule - Depending on how you configure Duplicate Management, sales reps see an alert that they’re about to create a duplicate. Or your reps are blocked from creating the duplicate altogether.
 
+### Manage Duplicate Records
+Starting in Spring ‘15, all new Salesforce orgs come with Duplicate Management features already
+set up and turned on for accounts, contacts, and leads. 
+* When a user attempts to save a new record, the record is first compared with existing Salesforce
+records to identify possible duplicates.
+* The criteria used to compare records and identify the possible duplicates are defined by
+a matching rule. Next, a list of possible duplicates is returned 
+* What happens when the record being saved is identified as a possible
+duplicate depends on what’s defined in the duplicate rule 
+ *  For example, the duplicate rule could block users from saving the
+possible duplicate record or allow them to save it anyway. Both the Block and Allow options include an alert, which tells users why they can’t save the record and what they need to do. The Allow option includes the ability to report on the duplicate records.
+
+
+
 Contact and Lead Field|Matching Algorithms|Special Handling|Example
 --- | --- | --- | ---
 First Name|Exact, Initials, Jaro-Winkler Distance, Metaphone 3, Name Variant|If the record contains a value for both First Name and Last Name fields, those values are transposed to consider possible data entry mistakes. |The first name is Luis and the last name is Antonio. The matching rule evaluates the first name as Antonio and the last name as Luis.

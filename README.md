@@ -9,6 +9,8 @@
 ### Manage Duplicate Records
 Starting in Spring ‘15, all new Salesforce orgs come with Duplicate Management features already
 set up and turned on for accounts, contacts, and leads. 
+
+#### New Records
 * (1) When a user attempts to save a new record, the record is first compared with existing Salesforce
 records to identify possible duplicates.
 * (2) The criteria used to compare records and identify the possible duplicates are defined by
@@ -17,6 +19,11 @@ a matching rule.
 * (4) The record being saved is identified as a possible duplicate depends on what’s defined in the duplicate rule 
   *  For example, the duplicate rule could block users from saving the
 possible duplicate record or allow them to save it anyway. Both the Block and Allow options include an alert, which tells users why they can’t save the record and what they need to do. The Allow option includes the ability to report on the duplicate records.
+
+#### Edited Records
+* When a user attempts to save an edited record, the record is first checked to see if the user has changed the value of a matching rule
+field. If so, the duplicate management process works as described for new records. If not, no further action is taken and duplicates
+are not detected.
 
 
 

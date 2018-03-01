@@ -8,7 +8,7 @@
 
 Contact and Lead Field|Matching Algorithms|Special Handling|Example
 --- | --- | --- | ---
-First Name|Exact, Initials, Jaro-Winkler Distance, Metaphone 3, Name Variant|If the record contains a value for both First Name and Last Name fields, those values are transposed to consider possible data entry mistakes.|The first name is Luis and the last name is Antonio.
+First Name|Exact, Initials, Jaro-Winkler Distance, Metaphone 3, Name Variant|If the record contains a value for both First Name and Last Name fields, those values are transposed to consider possible data entry mistakes. The first name is Luis and the last name is Antonio.
 The matching rule evaluates the first name as Antonio and the last name as Luis.
 ## Resources 
 * [Manage Duplicate Records](https://help.salesforce.com/articleView?id=managing_duplicates_overview.htm)

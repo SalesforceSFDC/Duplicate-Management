@@ -4,3 +4,4 @@
     * one for business accounts; 
     * one for contacts and leads, 
     * and another for person accounts. 
+* Duplicate rule - Depending on how you configure Duplicate Management, sales reps see an alert that they’re about to create a duplicate. Or your reps are blocked from creating the duplicate altogether.

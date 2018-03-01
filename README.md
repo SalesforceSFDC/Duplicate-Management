@@ -5,3 +5,11 @@
     * one for contacts and leads, 
     * and another for person accounts. 
 * Duplicate rule - Depending on how you configure Duplicate Management, sales reps see an alert that they’re about to create a duplicate. Or your reps are blocked from creating the duplicate altogether.
+
+## Resources 
+* [Manage Duplicate Records](https://help.salesforce.com/articleView?id=managing_duplicates_overview.htm)
+* [Standard Matching Rules](https://help.salesforce.com/articleView?id=matching_rules_standard_rules.htm)
+* [Standard Duplicate Rules](https://help.salesforce.com/articleView?id=duplicate_rules_standard_rules.htm)
+* [Customize Matching Rules](https://help.salesforce.com/articleView?id=matching_rules_create.htm)
+* [Matching Rules](https://help.salesforce.com/articleView?id=matching_rule_map_of_reference.htm)
+* [Duplicate Rules](https://help.salesforce.com/articleView?id=duplicate_rules_map_of_reference.htm)

@@ -6,6 +6,9 @@
     * and another for person accounts. 
 * Duplicate rule - Depending on how you configure Duplicate Management, sales reps see an alert that they’re about to create a duplicate. Or your reps are blocked from creating the duplicate altogether.
 
+Contact and Lead Field|Matching Algorithms|Special Handling|Example
+--- | --- | --- | ---
+
 ## Resources 
 * [Manage Duplicate Records](https://help.salesforce.com/articleView?id=managing_duplicates_overview.htm)
 * [Standard Matching Rules](https://help.salesforce.com/articleView?id=matching_rules_standard_rules.htm)

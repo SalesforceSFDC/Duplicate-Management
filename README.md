@@ -6,8 +6,8 @@
     * and another for person accounts. 
 * Duplicate rule - Depending on how you configure Duplicate Management, sales reps see an alert that they’re about to create a duplicate. Or your reps are blocked from creating the duplicate altogether.
 #
-* Matching rule determines whether the record a user is creating or updating is similar enough to other records to be considered a duplicate.
-* Duplicate rule tells Salesforce what action to take when duplicates are identified. 
+* Matching rule determines whether the record a user is creating or updating is <b>similar enough to other records to be considered a duplicate.</b>
+* Duplicate rule tells <b>Salesforce what action to take when duplicates are identified.</b>
 ### Matching Rule Limits
 * Up to five matching rules can be activated or deactivated at a time.
 * Up to five active matching rules are allowed per object.
